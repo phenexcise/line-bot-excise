@@ -76,6 +76,6 @@ function reply_message_2($url, $post_header, $post_body)
 	return $result;
 }
 
-echo "220 OK!!";
+echo "220 OK!! คำที่เราเพิ่มขึ้น";
 
 ?>
