@@ -27,6 +27,8 @@ foreach ($request_json['events'] as $event)
 			}
 			if($text == "1"){
 				$reply_message = mySQL_selectAll('http://bot.kantit.com/json_select_users.php');
+			}else if($text == "0"){
+				$reply_message = "http://www.kantit.com/download/excise.jpg";
 			}else if($text == "2"){
 				$reply_message = mySQL_selectAll('http://bot.kantit.com/json_select_users.php?sid='.$texts[1]);
 			}else if($text == "3"){
